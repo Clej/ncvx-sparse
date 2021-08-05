@@ -1,0 +1,5 @@
+name: ncvx-sparse
+dependencies:
+  - numpy>=1.12
+  - scipy
+  - scikit-learn
