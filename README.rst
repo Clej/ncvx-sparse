@@ -22,7 +22,7 @@ project-template - A template for scikit-learn contributions
 
 .. _scikit-learn: https://scikit-learn.org
 
-**ncvx-sparse** is a Python library for learning high-dimensional linear regresion models (single- and -multi-task) with nonconvex sparsity (e.g.g SCAD, MCP, l1-group SCAD).
+**ncvx-sparse** is a Python library for learning high-dimensional linear regresion models (single- and -multi-task) with nonconvex sparsity (e.g. SCAD, MCP, l1-group SCAD).
 Solvers are written in Cython and the estimators follow the Scikit-learn API.
 
 .. _documentation: 
