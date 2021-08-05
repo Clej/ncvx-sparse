@@ -5,6 +5,10 @@ __pycache__/
 
 # C extensions
 *.so
+*.c
+
+# cython generation
+*pyc
 
 # scikit-learn specific
 doc/_build/
@@ -65,3 +69,4 @@ doc/generated/
 
 # PyBuilder
 target/
+
