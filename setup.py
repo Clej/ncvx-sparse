@@ -17,15 +17,15 @@ with open(ver_file) as f:
 
 DISTNAME = 'ncvx-sparse'
 DESCRIPTION = 'Scikit-learn compatible implementation of nonconvex sparse estimators for single- and multi-task linear regressions (e.g. SCAD, MCP, l1-group-SCAD, etc).'
-with codecs.open('README.rst', encoding='utf-8-sig') as f:
-    LONG_DESCRIPTION = f.read()
+LONG_DESCRIPTION = open('README.rst').read()
+    
 MAINTAINER = 'Clement Lejeune'
 MAINTAINER_EMAIL = 'clement.lejeune@irit.fr'
 URL = 'https://github.com/scikit-learn-contrib/Clej/ncvx_estimators'
 LICENSE = 'BSD (3-clause)'
 DOWNLOAD_URL = 'https://github.com/scikit-learn-contrib/Clej/ncvx_estimators'
 VERSION = __version__
-INSTALL_REQUIRES = ['numpy', 'scipy', 'scikit-learn>=0.23', 'cython>=0.26']
+INSTALL_REQUIRES = ['numpy', 'scipy', 'scikit-learn>=0.23', 'cython>=0.26', 'pandas==0.25']
 CLASSIFIERS = ['Intended Audience :: Science/Research',
                'Intended Audience :: Developers',
                'License :: OSI Approved',
