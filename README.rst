@@ -24,9 +24,10 @@ where P stands for:
 
 			\arg \min_{\beta = (\beta_1 \dots \beta_k) \in \mathbb{R}^{K \times p}} \frac{1}{2} \sum_j^K \sum_i^n (y_{ik} - x_{ik}^{\top} \beta_j)^2
 
-- Multitask SCAD-$$\ell_1$$ linear regresion,
-- Multitask SCAD-$$\ell_2$$ linear regression.
+where P stands for:
 
+- SCAD-l1 i.e. SCAD on the l1-norm of p-th feature vector accross the K tasks,
+- SCAD-l2, same as SCAD-l1 but with respect to the l2-norm (not squared).
 
 Install the released version
 ============================
