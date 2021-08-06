@@ -6,6 +6,8 @@ ncvx-sparse
 **ncvx-sparse** is a Python library for learning high-dimensional linear regresion models (single- and -multi-task) with nonconvex sparsity (e.g. SCAD, MCP, l1-group SCAD).
 Solvers are written in Cython and implementation follows the Scikit-learn API.
 
+Why imposing sparsity with nonconvex sparsity inducing penalties (e.g. LASSO) ? Because...
+
 Currently, the **ncvx-sparse** solves the following problems:
 
 1. Single-task linear regression,
@@ -32,9 +34,15 @@ where P stands for:
 Install the released version
 ============================
 
-Createa Python=3.6 environment (e.g. Anaconda), you can `install **ncvx-sparse** <https://pypi.python.org/pypi/ncvx-sparse/>`__. from pip with the following command line:
+Create a Python=3.6 environment (e.g. Anaconda), and install ncvx-sparse `from pip <https://pypi.python.org/pypi/ncvx-sparse/>`__.  with the following command line in your Anaconda prompt:
 
 ::
 
     pip install -U ncvx-sparse
+	
+Example
+=======
+
+References
+==========
 
